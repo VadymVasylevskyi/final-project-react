@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    
+  }
+
+  .titleBlock a {
+    text-decoration: none;
+  }
+
+  .titleBlock h2 {
+    font-size: 64px;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+
+  .titleBlockLine {
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin-left: 32px;
+  }
+
+  .titleBlockButton {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8B8B8B;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    white-space: nowrap;
+    padding: 6px 16px;
+  }
+
+  @media (min-width: 480px) {
+    .container {
+      max-width: 465px;
+    }
+    
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+
+
+  @media (max-width: 1200px) {
+    .titleBlock h2 {
+      font-size: 58px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .titleBlock h2 {
+      font-size: 52px;
+    }
+
+    .titleBlockLine {
+      width: 100%;
+      height: 1px;
+      background-color: #DDDDDD;
+      margin-left: 16px;
+    }
+
+   
+  }
+
+  @media (max-width: 767px) {
+    .titleBlock {
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+  }
+  @media (max-width: 576px) {
+    .titleBlock h2 {
+      font-size: 45px;
+    }
+    .titleBlockLine {
+      display: none;
+    }
+  }

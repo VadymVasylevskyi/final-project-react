@@ -1,0 +1,59 @@
+.checkoutContent {
+    background-image: url('src/assets/main-bg.jpg');
+    background-size: cover;
+    min-height: 600px;
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 80px;
+   
+  }
+  
+  .checkoutContent h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 105.6px;
+    text-align: left;
+    
+  }
+
+  button {
+    visibility: visible;
+    margin-top: 45px;
+  }
+
+  @media (max-width: 1200px) {
+    .checkoutContent h1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .checkoutContent h1 {
+      font-size: 70px;
+      text-align: center;
+    }
+
+    .checkoutContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    
+  }
+
+  @media (max-width: 576px) {
+    .checkoutContent h1 {
+      font-size: 50px;
+      line-height: 75px;
+      
+    }
+
+    .checkoutContent {
+      padding: 32px;
+      margin-bottom: 40px;
+    }
+  }
+

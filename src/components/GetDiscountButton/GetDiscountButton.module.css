@@ -1,0 +1,37 @@
+.getDiscountButton {
+  padding: 0 32px;
+  border: none;
+  height: 58px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #FFFFFF;
+  color: #282828;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.getDiscountButton:hover {
+  background-color: #282828;
+  color: #FFFFFF;
+}
+
+.getDiscountButton:active {
+  background-color: #FFFFFF;
+  color: #282828;
+}
+
+.addedState {
+  background-color: #F1f3f4;
+  color: #0d50ff;
+}
+
+.disabled {
+  background-color: #FFFFFF;
+  color: #282828;
+  cursor: not-allowed;
+  opacity: 1;
+}

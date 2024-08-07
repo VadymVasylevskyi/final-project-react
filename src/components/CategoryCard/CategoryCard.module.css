@@ -1,0 +1,28 @@
+.categoryCard {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.categoryCard img {
+    max-width: 316px;
+    max-height: 350px;
+    margin-bottom: 16px;
+}
+
+.cardTitle {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .categoryCard {
+        align-items:center ;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardTitle {
+        font-size: 18px;
+    }
+    
+}
